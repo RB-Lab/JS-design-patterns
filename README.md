@@ -1,21 +1,47 @@
 # JS Design Patterns
-A collection of design patterns applied to js
+
+In this "bookish" repo I collected JavaScript applications of the design patterns
+you can often hear about. I provided examples that I found in many source on the web.
+The files with such examples usually named as:
+```
+[design-pattern]-[source-name].js
+```
+For each of such example source mentioned in the beginning of the file.
+
+I also provided here examples of patterns usage from my practice. I place such examples in 
+two types of files:
+```
+[design-pattern]-imho.js
+```
+and 
+```
+[design-pattern]-imho-ee.js # or it may be a folder
+```
+In files of first type I putted the most simple examples of design pattern. At the end of
+such files there is a comment `WHY YOU SHOULDN'T USE THIS CODE IN PRODUCTION` that explains 
+all simplifications made in the example code and what's the problem with them. In `-ee` 
+(enterprise edition) files I putted the same examples but written in a way that kinda 
+applies all good practice that will be useful in a large codebase but maybe make code less 
+understandable for education purposes. 
 
 ## OOP Design Patterns
 
 ### Creational Patterns
 
-#### Abstract Factory	
+#### [Abstract Factory](./examples/abstract-factory)
 
-**What it does:** abstracts creation of an object behind the common interface, so you can select its class dynamically.
+**What it does:** abstracts creation of an object behind the common interface, 
+so you can select its class dynamically.
 
-**When do you need it:** when you know that you need an instance of one of somehow simliar classes but which class you need you'll know only in runtime
+**When do you need it:** when you know that you need an instance of one of 
+somehow similar classes but which class you need you'll know only in runtime.
 
 #### Factory
 
 **What it does:** creates an object.
 
-**When do you need it:** just when you don't want constructor to be visible _or_ when you don't want constructor to exist.
+**When do you need it:** just when you don't want constructor to be visible 
+_or_ when you don't want constructor to exist.
 
 #### Builder
 Separates object construction from its representation
@@ -88,6 +114,14 @@ Defer the exact steps of an algorithm to a subclass
 Defines a new operation to a class without change
 
 ## Functional Design Patterns
+
+### Monades
+
+## Large Scale Design Patterns
+
+### CQRS
+
+### CRDT
 
 ## Reference
 - http://www.dofactory.com/javascript/design-patterns
