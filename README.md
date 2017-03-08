@@ -30,18 +30,18 @@ understandable for education purposes.
 
 #### [Abstract Factory](./examples/abstarct-factory)
 
-**What it does:** abstracts creation of an object behind the common interface, 
-so you can select its class dynamically.
-
-**When do you need it:** when you know that you need an instance of one of 
-somehow similar classes but which class you need you'll know only in runtime.
+> **What it does:** abstracts creation of an object behind the common interface, 
+> so you can select its class dynamically.
+> 
+> **When do you need it:** when you know that you need an instance of one of 
+> somehow similar classes but which class you need you'll know only in runtime.
 
 #### Factory
 
-**What it does:** creates an object.
-
-**When do you need it:** just when you don't want constructor to be visible 
-_or_ when you don't want constructor to exist.
+> **What it does:** creates an object.
+> 
+> **When do you need it:** just when you don't want constructor to be visible 
+> _or_ when you don't want constructor to exist.
 
 #### Builder
 Separates object construction from its representation
