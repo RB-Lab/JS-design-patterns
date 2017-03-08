@@ -28,7 +28,7 @@ understandable for education purposes.
 
 ### Creational Patterns
 
-#### [Abstract Factory](./examples/abstract-factory)
+#### [Abstract Factory](./examples/abstarct-factory)
 
 **What it does:** abstracts creation of an object behind the common interface, 
 so you can select its class dynamically.
