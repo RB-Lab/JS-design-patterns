@@ -127,3 +127,4 @@ Defines a new operation to a class without change
 - http://www.dofactory.com/javascript/design-patterns
 - http://robdodson.me/javascript-design-patterns/
 - https://fsharpforfunandprofit.com/fppatterns/
+- https://habrahabr.ru/post/132472/
