@@ -8,21 +8,21 @@ The files with such examples usually named as:
 ```
 For each of such example source mentioned in the beginning of the file.
 
-I also provided here examples of patterns usage from my practice. I place such examples in 
+I also provided here examples of patterns usage from my practice. I place such examples in
 two types of files:
 ```
 [design-pattern]-imho.js
 ```
-and 
+and
 ```
 [design-pattern]-imho-ee.js # or it may be a folder
 ```
 In files of first type I putted the most simple examples of design pattern. At the end of
-such files there is a comment `WHY YOU SHOULDN'T USE THIS CODE IN PRODUCTION` that explains 
-all simplifications made in the example code and what's the problem with them. In `-ee` 
-(enterprise edition) files I putted the same examples but written in a way that kinda 
-applies all good practice that will be useful in a large codebase but maybe make code less 
-understandable for education purposes. 
+such files there is a comment `WHY YOU SHOULDN'T USE THIS CODE IN PRODUCTION` that explains
+all simplifications made in the example code and what's the problem with them. In `-ee`
+(enterprise edition) files I putted the same examples but written in a way that kinda
+applies all good practice that will be useful in a large codebase but maybe make code less
+understandable for education purposes.
 
 ## OOP Design Patterns
 
@@ -30,17 +30,17 @@ understandable for education purposes.
 
 #### [Abstract Factory](./examples/abstarct-factory)
 
-> **What it does:** abstracts creation of an object behind the common interface, 
+> **What it does:** abstracts creation of an object behind the common interface,
 > so you can select its class dynamically.
-> 
-> **When do you need it:** when you know that you need an instance of one of 
+>
+> **When do you need it:** when you know that you need an instance of one of
 > somehow similar classes but which class you need you'll know only in runtime.
 
 #### Factory
 
 > **What it does:** creates an object.
-> 
-> **When do you need it:** just when you don't want constructor to be visible 
+>
+> **When do you need it:** just when you don't want constructor to be visible
 > _or_ when you don't want constructor to exist.
 
 #### Builder
@@ -80,7 +80,7 @@ An object representing another object
 
 ### Behavioral Patterns
 
-#### Chain of Responsibility 
+#### Chain of Responsibility
 A way of passing a request between a chain of objects
 
 #### Command
@@ -112,6 +112,10 @@ Defer the exact steps of an algorithm to a subclass
 
 #### Visitor
 Defines a new operation to a class without change
+
+## JavaScript Specific Patterns
+
+### New-Agnostic Constructors
 
 ## Functional Design Patterns
 
