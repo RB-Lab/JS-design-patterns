@@ -28,7 +28,7 @@ understandable for education purposes.
 
 ### Creational Patterns
 
-#### [Abstract Factory](./examples/abstarct-factory)
+#### [Abstract Factory](./examples/abstract-factory)
 
 > **What it does:** abstracts creation of an object behind the common interface,
 > so you can select its class dynamically.
@@ -36,15 +36,20 @@ understandable for education purposes.
 > **When do you need it:** when you know that you need an instance of one of
 > somehow similar classes but which class you need you'll know only in runtime.
 
-#### Factory
+#### [Factory](./examples/factory)
 
 > **What it does:** creates an object.
 >
 > **When do you need it:** just when you don't want constructor to be visible
 > _or_ when you don't want constructor to exist.
 
-#### Builder
-Separates object construction from its representation
+#### [Builder](./examples/builder)
+
+> **What it does:** simplifies object construction (usually meaning object
+creation and filling its with something)
+>
+> **When do you need it:** when you have to create a complex (i.e. _composite_)
+objects, often of different types, often in repetitive ways.
 
 #### Factory Method
 Creates an instance of several derived classes
